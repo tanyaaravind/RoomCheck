@@ -1,0 +1,49 @@
+.home-container {
+  position: relative; /* Add this line */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 70vh; 
+  margin-left: 425px;
+}
+
+.profile-button {
+  position: absolute;
+  top: 0px;
+  right: -450px;
+
+}
+
+.home-container h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.search-results-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search-results-container h2 {
+  font-size: 24px;
+}
+
+.search-results-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.search-results-container button {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  margin-top: 20px;
+}
+
+.search-results-container button:hover {
+  background-color: #0056b3;
+}
